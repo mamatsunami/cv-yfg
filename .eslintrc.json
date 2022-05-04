@@ -1,0 +1,4 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": ["next", "standard", "standard-jsx", "standard-react", "plugin:@typescript-eslint/recommended"]
+}
