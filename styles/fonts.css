@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'mononoki';
+    src: url('../assets/fonts/mononoki/mononoki-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/mononoki/mononoki-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/mononoki/mononoki-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../assets/fonts/mononoki/mononoki-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mononoki';
+    src: url('../assets/fonts/mononoki/mononoki-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/mononoki/mononoki-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/mononoki/mononoki-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../assets/fonts/mononoki/mononoki-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mononoki';
+    src: url('../assets/fonts/mononoki/mononoki-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/mononoki/mononoki-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/mononoki/mononoki-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../assets/fonts/mononoki/mononoki-Italic.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'mononoki';
+    src: url('../assets/fonts/mononoki/mononoki-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/mononoki/mononoki-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/mononoki/mononoki-BoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../assets/fonts/mononoki/mononoki-BoldItalic.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../assets/fonts/source-code-pro/WOFF2/TTF/SourceCodePro-Light.ttf.woff2') format('woff2'),
+         url('../assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Light.otf.woff') format('woff'),
+         url('../assets/fonts/source-code-pro/OTF/SourceCodePro-Light.otf') format('opentype'),
+         url('../assets/fonts/source-code-pro/TTF/SourceCodePro-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../assets/fonts/source-code-pro/WOFF2/TTF/SourceCodePro-Medium.ttf.woff2') format('woff2'),
+         url('../assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Medium.otf.woff') format('woff'),
+         url('../assets/fonts/source-code-pro/OTF/SourceCodePro-Medium.otf') format('opentype'),
+         url('../assets/fonts/source-code-pro/TTF/SourceCodePro-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('../assets/fonts/source-code-pro/WOFF2/TTF/SourceCodePro-MediumIt.ttf.woff2') format('woff2'),
+         url('../assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-MediumIt.otf.woff') format('woff'),
+         url('../assets/fonts/source-code-pro/OTF/SourceCodePro-MediumIt.otf') format('opentype'),
+         url('../assets/fonts/source-code-pro/TTF/SourceCodePro-MediumIt.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../assets/fonts/source-code-pro/WOFF2/TTF/SourceCodePro-Bold.ttf.woff2') format('woff2'),
+         url('../assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Bold.otf.woff') format('woff'),
+         url('../assets/fonts/source-code-pro/OTF/SourceCodePro-Bold.otf') format('opentype'),
+         url('../assets/fonts/source-code-pro/TTF/SourceCodePro-Bold.ttf') format('truetype');
+}

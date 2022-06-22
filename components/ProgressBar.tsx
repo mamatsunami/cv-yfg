@@ -7,11 +7,11 @@ interface ProgressBarProps {
 }
 
 export const ProgressBar: FunctionComponent<ProgressBarProps> = ({ level = 0, label = '', className = '' }) => (
-  <div className={`flex flex-col-reverse items-center lg:flex-row ${className}`}>
+  <div className={`flex flex-col-reverse items-center ${className}`}>
     <div>
       {PROGRESS_BAR_LEVELS[level]}
     </div>
-    <span className='block uppercase text-xs font-semibold pt-4 lg:pt-[2px] lg:ml-4'>
+    <span className='block uppercase text-xs font-semibold pt-2'>
       {label}
     </span>
   </div>

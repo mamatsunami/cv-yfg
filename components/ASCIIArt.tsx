@@ -7,9 +7,10 @@ import leadDeveloper from '@/assets/ascii/texts/leadDeveloper'
 import enBref from '@/assets/ascii/texts/enBref'
 import skills from '@/assets/ascii/texts/skills'
 import experiences from '@/assets/ascii/texts/experiences'
+import parcours from '@/assets/ascii/texts/parcours'
 
 interface ASCIIArtProps {
-  symbol: 'avatar' | 'Yann-Fanch' | 'GUYOT' | 'Lead Developer' | 'En Bref' | 'Skills' | 'Experiences';
+  symbol: 'avatar' | 'Yann-Fanch' | 'GUYOT' | 'Lead Developer' | 'En Bref' | 'Skills' | 'Experiences' | 'Parcours';
   size?: number;
   className?: string;
 }
@@ -33,5 +34,6 @@ const ASCII_ART: { [key: string]: { source: string, ratio: number } } = {
   'Lead Developer': { source: leadDeveloper, ratio: 1 },
   'En Bref': { source: enBref, ratio: 1 },
   Skills: { source: skills, ratio: 1 },
-  Experiences: { source: experiences, ratio: 1 }
+  Experiences: { source: experiences, ratio: 1 },
+  Parcours: { source: parcours, ratio: 1 }
 }

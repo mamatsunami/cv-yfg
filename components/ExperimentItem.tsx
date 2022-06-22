@@ -1,17 +1,16 @@
 import React, { FunctionComponent } from 'react'
 
-interface ExperimentProps {
-  position: string;
-  company: string;
+interface ExperimentItemProps {
+  name: string;
   period: string;
   description?: string;
   className?: string;
 }
 
-export const Experiment: FunctionComponent<ExperimentProps> = ({ position, company, period, description, className = '' }) => (
-  <div className={`block ${className}`}>
+export const ExperimentItem: FunctionComponent<ExperimentItemProps> = ({ name, period, description, className = '' }) => (
+  <div className={`block ${className}`} id={name}>
     <span className='block text-lg'>
-      <strong>{position}</strong> @{company}
+      <strong>{name}</strong>
     </span>
     <em className='block mb-2'>{period}</em>
     {description
